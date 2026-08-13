@@ -1,4 +1,13 @@
 :root{
     --cor-fundo:green;
-    --cor
+    --cor-principal:red;
+    --cor-segundario:blue;
+    --cor-destaque:yellow;
+    --cor-texto:black;
+}
+body{
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    align-items: center;
+    justify-content: center;
 }
