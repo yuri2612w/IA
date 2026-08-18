@@ -1,3 +1,5 @@
+
+
 const perguntas = [
     {
         enunciado: "Você estuda em uma escola ou faculdade?",
