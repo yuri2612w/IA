@@ -86,6 +86,13 @@ function mostraPergunta(){
     }
     perguntaAtual = perguntas[atual]
     caixaPerguntas.textoContent = perguntaAtual.enunciado
+    mostraAlternativas()
 }
+function mostraAlternativas(){
+        for(const alternativa of perguntaAtual.alternativa){
+            const botaoalternativas =
+        }
+        
+    }
 
 mostraPergunta()
