@@ -90,7 +90,7 @@ function mostraPergunta(){
 }
 function mostraAlternativas(){
         for(const alternativa of perguntaAtual.alternativa){
-            const botaoalternativas =
+            const botaoalternativas = document.createElement("button")
         }
         
     }
