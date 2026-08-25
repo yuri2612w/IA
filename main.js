@@ -96,7 +96,16 @@ function mostraAlternativas(){
             botaoalternativas.addEventListener("click", ()=> respostaSelecionada(alternativa))
             caixaAlternativas.appendChild(caixaAlternativas)
         }
-        
     }
-
+function respostaSelecionada(opcaoSelecionada){
+    const afirmacaes = opcaoSelecionada.afirmacao
+    historiaFinal += afirmacaes + " "
+    atual++
+    mostraPergunta()
+}
+function mostraResultado(){
+    caixaPerguntas.textoContent = "Em 2049 ..."
+    textoResultado.textoContent = historiaFinal
+    caixaAlternativas.textoContent = " ";
+}
 mostraPergunta()
