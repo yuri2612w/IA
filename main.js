@@ -85,8 +85,8 @@ function mostraPergunta(){
         return    
     }
     perguntaAtual = perguntas[atual]
-    caixaPerguntas.textoContent = perguntaAtual.enunciado
-    caixaAlternativas.textoContent = "";
+    caixaPerguntas.textContent = perguntaAtual.enunciado
+    caixaAlternativas.textContent = "";
     mostraAlternativa()
 
     
@@ -106,8 +106,8 @@ function respostaSelecionada(opcaoSelecionada){
     mostraPergunta()
 }
 function mostraResultado(){
-    caixaPerguntas.textoContent = "Em 2049 ..."
-    textoResultado.textoContent = historiaFinal
-    caixaAlternativas.textoContent = "";
+    caixaPerguntas.textContent = "Em 2049 ..."
+    textoResultado.textContent = historiaFinal
+    caixaAlternativas.textContent = "";
 }
 mostraPergunta()
