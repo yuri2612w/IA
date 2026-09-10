@@ -13,11 +13,17 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Escola",
-                afirmacao: "Você ainda esta começando eu diria, ainda tem muito o que aprender no mundo profissional."
+                afirmacao: [
+                    "Você ainda esta começando eu diria, ainda tem muito o que aprender no mundo profissional."
+                    "Você possui potencial, mesmo no lugar que está, so precisa enxergar isso."
+                ]
             },
             {
                 texto: "Faculdade",
-                afirmacao: "Você ja está avanançado mais em sua carreira profissional, e tem muito potencial."
+                afirmacao: [
+                    "Você ja está avanançado mais em sua carreira profissional, e tem muito potencial.",
+                    "Vocẽ ja passou de uma etapa longa e tanto, mas ainda tem muito trabalho pela frente."
+                ]
             }
         ]
     },
@@ -26,11 +32,17 @@ const perguntas = [
         alternativas: [
             {
                 texto: " Exatas",
-                afirmacao: "Você tende a ter o pensamento mais logico e gosta de raciocinar mais, principalmente com calculos."
+                afirmacao: [
+                    "Você tende a ter o pensamento mais logico e gosta de raciocinar mais, principalmente com calculos.",
+                    "Vocẽ gosta de calculos principalemnte, gosta da sensação do calculo dar a resposta exata."
+                ]
             },
             {
                 texto: "Humanas",
-                afirmacao: "Você pode ser uma pessoa mais expressiva, se adimira mais por coisas da vida cotidiana e aprecia a arte muitas vezes."
+                afirmacao: [
+                    "Você pode ser uma pessoa mais expressiva, se adimira mais por coisas da vida cotidiana e aprecia a arte muitas vezes.",
+                    "Vocẽ pode gostar mais de linguagem formal do que a técnica, aprende mais facil guardando informações."
+                ]
             }
         ]
     },
@@ -39,11 +51,17 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Pública",
-                afirmacao: "Você se destava entre pessoas e candidatos, normalmente uma pessoa esforçada que sabe o que quer na vida."
+                afirmacao: [
+                    "Você se destaca entre pessoas e candidatos, normalmente uma pessoa esforçada que sabe o que quer na vida.",
+                    "Voce tenta ao máximo alcançar seus objetivos pessoais e profissionais.",
+                ]
             },
             {
                 texto: "Particular",
-                afirmacao: "Você também é esforçado, mas ou você tem um potencial muito forte para várias conquistas, ou você pode ser uma pessoa que não faz muito caso."
+                afirmacao: [
+                    "Você também é esforçado, mas ou você tem um potencial muito forte para várias conquistas, ou você pode ser uma pessoa que não faz muito caso.",
+                    "Você pode reconhcer que não tem muito potencial, mas com um esforço a mais ja pode fazer a diferença."
+                ]
             }
         ]
     },
@@ -52,11 +70,16 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Sim",
-                afirmacao: "Vocẽ pode ser uma pessoa arrojada, mas que acredita em seu potencial, pois você se arrisca até que bastante por um objetivo que acredita profundamente."
+                afirmacao: [
+                    "Vocẽ pode ser uma pessoa arrojada, mas que acredita em seu potencial, pois você se arrisca até que bastante por um objetivo que acredita profundamente.",
+                    "Você acredita em seu potencial, mesmo sabendo que terá muito dificuldade."
+                ]
             },
             {
                 texto: "Não",
-                afirmacao: "Você é uma pessoa calma, que acredita no sistema da meritocracia, e que se você se esforçar e fazer seu trabalho direito, as coisas vão dar certa para você sem nenhuma dúvida."
+                afirmacao: [
+                    "Você é uma pessoa calma, que acredita no sistema da meritocracia, e que se você se esforçar e fazer seu trabalho direito, as coisas vão dar certa para você sem nenhuma dúvida.",
+                    ''
             }
         ]
     },
