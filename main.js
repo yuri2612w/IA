@@ -79,7 +79,8 @@ const perguntas = [
                 texto: "Não",
                 afirmacao: [
                     "Você é uma pessoa calma, que acredita no sistema da meritocracia, e que se você se esforçar e fazer seu trabalho direito, as coisas vão dar certa para você sem nenhuma dúvida.",
-                    ''
+                    "Você talvez ache que a opção mais simples é trabalhar por cargo, as vezes até tenta subir de cargo."
+                ]
             }
         ]
     },
@@ -88,11 +89,17 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Sim",
-                afirmacao: "Você é uma pessoa que mesmo não pronto, esta disposto a realizar sacrifícios pelo o que você ama, e esta disposto a crescer de forma madura."
+                afirmacao: [
+                    "Você é uma pessoa que mesmo não pronto, esta disposto a realizar sacrifícios pelo o que você ama, e esta disposto a crescer de forma madura.",
+                    "você é uma pessoa ousada, mas que ja esta disposto pra fazer o possível para ter uma vida emocional melhor."
+                ]
             },
             {
                 texto: "Não",
-                afirmacao: "Você não tem muita pressa com os objetivos da vida normalmente, no momento você prefere focar em si, pois assim você tem a esṕerança dos seus sonhos se realizarem de fato."
+                afirmacao: [
+                    "Você não tem muita pressa com os objetivos da vida normalmente, no momento você prefere focar em si, pois assim você tem a esṕerança dos seus sonhos se realizarem de fato."<
+                    "Você na verdade só pode não estar afim de construir uma família agora ou nunca."
+                ]
             }
         ]
     },
