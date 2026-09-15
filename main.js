@@ -130,7 +130,7 @@ function mostraAlternativa(){
         }
     }
 function respostaSelecionada(opcaoSelecionada){
-    const afirmacaes = opcaoSelecionada.afirmacao
+    const afirmacaes = aleatorio(opcaoSelecionada.afirmacao)
     historiaFinal += afirmacaes + " "
     atual++
     mostraPergunta()
