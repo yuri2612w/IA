@@ -142,8 +142,9 @@ function mostraResultado(){
 }
 
 function aleatorio(lista){
-     const posicoa = Math.random()*lista.length
-
+     const posicao = Math.random()*lista.length
+    console.log(posicao);
+    
 }
 
 
