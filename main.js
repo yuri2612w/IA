@@ -140,4 +140,15 @@ function mostraResultado(){
     textoResultado.textContent = historiaFinal
     caixaAlternativas.textContent = "";
 }
+
+function aleatorio(lista){
+
+    
+}
+
+
+
+
+
+
 mostraPergunta()
