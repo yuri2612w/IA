@@ -14,7 +14,7 @@ const perguntas = [
             {
                 texto: "Escola",
                 afirmacao: [
-                    "Você ainda esta começando eu diria, ainda tem muito o que aprender no mundo profissional."
+                    "Você ainda esta começando eu diria, ainda tem muito o que aprender no mundo profissional.",
                     "Você possui potencial, mesmo no lugar que está, so precisa enxergar isso."
                 ]
             },
