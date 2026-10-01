@@ -69,7 +69,7 @@ export const perguntas = [
             {
                 texto: "Não",
                 afirmacao: [
-                    "Você é uma pessoa calma, que acredita no sistema da meritocracia, e que se você se esforçar e fazer seu trabalho direito, as coisas vão dar certa para você sem nenhuma dúvida.",
+                    "Você é umgithuba pessoa calma, que acredita no sistema da meritocracia, e que se você se esforçar e fazer seu trabalho direito, as coisas vão dar certa para você sem nenhuma dúvida.",
                     "Você talvez ache que a opção mais simples é trabalhar por cargo, as vezes até tenta subir de cargo."
                 ]
             }
